@@ -69,19 +69,19 @@ The dataset contains customer information used for digital marketing analysis an
 
 ## Phase 1 - Data Distribution
 
-![Histogram](images/Phase1_Histogram.png)
+![Histogram](images/Phase1Histogram.png)
 
 ---
 
 ## Feature Selection
 
-![Feature Selection](images/Feature_Selection.png)
+![Feature Selection](images/FeatureSelection.png)
 
 ---
 
 ## Logistic Regression Train/Test Split
 
-![Train Test Split](images/Logistic_Regression_splits.png.png)
+![Train Test Split](images/LogisticRegressionsplits.png.png)
 
 ---
 
