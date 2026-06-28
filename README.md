@@ -134,9 +134,9 @@ jupyter notebook
 
 ## Author
 
-**Your Name**
+**Yousef Qaisi**
 
-Computer Science Student
+AI Student
 
 ---
 
