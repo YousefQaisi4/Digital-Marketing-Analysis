@@ -1,52 +1,145 @@
-# Digital Marketing Data Mining Project
+# Digital Marketing Data Mining
 
-## Overview
+A data mining project that analyzes a digital marketing dataset using data preprocessing, exploratory data analysis (EDA), feature selection, and Logistic Regression for customer classification.
 
-This project focuses on analyzing a digital marketing dataset and building a predictive model using Logistic Regression. The goal is to identify patterns in customer data and predict the target outcome based on available features.
+---
+
+## Project Overview
+
+This project is divided into two phases:
+
+### Phase 1
+- Data loading
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Feature selection
+
+### Phase 2
+- Data preprocessing
+- Train/Test split
+- Logistic Regression model
+- Model evaluation
+- Performance analysis
+
+---
+
+## Project Structure
+
+```text
+DigitalMarketing-Data-Mining/
+│
+├── data/
+│   └── digitalmarketing.csv
+│
+├── notebooks/
+│   ├── phase_1.ipynb
+│   └── phase_2_logistic_regression.ipynb
+│
+├── images/
+│   ├── Accuracy.png
+│   ├── feature_selection.png
+│   ├── logistic_splits.png
+│   └── phase1_histogram.png
+│
+└── README.md
+```
+
+---
 
 ## Dataset
 
-**Dataset:** `digitalmarketing.csv`
+The dataset contains customer information used for digital marketing analysis and prediction.
 
-The dataset contains digital marketing related records used for data analysis and machine learning tasks.
-
-## Project Phases
-
-### Phase 1
-
-* Data loading and inspection
-* Data cleaning and preprocessing
-* Handling missing values
-* Exploratory Data Analysis (EDA)
-* Feature preparation
-
-### Phase 2
-
-* Building a Logistic Regression model
-* Training and testing the model
-* Model evaluation and performance analysis
+---
 
 ## Technologies Used
 
-* Python
-* Google Colab
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+# Results
+
+## Phase 1 - Data Distribution
+
+![Histogram](images/phase1_histogram.png)
+
+---
+
+## Feature Selection
+
+![Feature Selection](images/feature_selection.png)
+
+---
+
+## Logistic Regression Train/Test Split
+
+![Train Test Split](images/logistic_splits.png)
+
+---
+
+## Model Accuracy
+
+![Accuracy](images/Accuracy.png)
+
+---
 
 ## Machine Learning Model
 
-* Logistic Regression
+**Algorithm**
 
-## Project Objectives
+- Logistic Regression
 
-* Understand customer-related marketing data
-* Prepare data for machine learning
-* Build a classification model
-* Evaluate prediction performance
+**Evaluation Metrics**
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+
+---
+
+## How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/DigitalMarketing-Data-Mining.git
+```
+
+2. Install the required libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+3. Open Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+4. Run the notebooks in order:
+
+- `phase_1.ipynb`
+- `phase_2_logistic_regression.ipynb`
+
+---
 
 ## Author
 
-**Yousef Qaisi**
-AI Student
+**Your Name**
+
+Computer Science Student
+
+---
+
+## License
+
+This project is for educational purposes.
