@@ -81,7 +81,7 @@ The dataset contains customer information used for digital marketing analysis an
 
 ## Logistic Regression Train/Test Split
 
-![Train Test Split](images/logistic_splits.png)
+![Train Test Split](images/Logistic Regression splits.png)
 
 ---
 
